@@ -1,0 +1,37 @@
+{
+  "name": "cordbot",
+  "version": "1.0.0",
+  "description": "An Open-Source Discord Bot",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "NODE_ENV=development node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasDoesDev/cordbot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "cordbot",
+    "opensource"
+  ],
+  "author": "LukasDoesDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LukasDoesDev/cordbot/issues"
+  },
+  "homepage": "https://cordbot.thatonelukas.tk",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.0",
+    "bufferutil": "^4.0.3",
+    "discord.js": "^12.5.3",
+    "erlpack": "github:discord/erlpack",
+    "utf-8-validate": "^5.0.4",
+    "ytdl-core-discord": "^1.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

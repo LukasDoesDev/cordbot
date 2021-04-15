@@ -1,0 +1,13 @@
+{
+    "enum": {
+        "activity.type": ["PLAYING","WATCHING","LISTENING","STREAMING"],
+        "afk": [true, false],
+        "status": ["online", "idle", "invisible", "dnd"]
+    },
+    "activity": {
+        "type": "PLAYING",
+        "text": "Minecraft, get out of my room"
+    },
+    "afk": false,
+    "status": "online"
+}
